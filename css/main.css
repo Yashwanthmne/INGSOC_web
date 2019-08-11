@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Catamaran:900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Monsieur+La+Doulaise&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lovers+Quarrel&display=swap');
+
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+#navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: top 0.7s;
+}
+
+.intro {
+	height: 100%;
+	width: 100%;
+	margin: auto;
+	background: url(../images/3.jpg);
+	display: table;
+	top:0;
+	background-position: center center;
+    background-repeat: no-repeat;
+	background-size: cover;
+  /* Create the parallax scrolling effect */
+ /* background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;*/
+}
+
+.intro .inner {
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+	max-width: none;
+}
+.content {
+	max-width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.content h1 {
+	font-family: 'Catamaran', sans-serif;
+	color: #F9F3F4;
+	text-shadow: 0px 0px 300px #000;
+	font-size: 500%;
+	white-space: nowrap;
+}
+
+.btn {
+	border-radius: 9px;
+	font-family: 'Oswald', sans-serif;
+	color: #036A81;
+	font-size: 135%;
+	padding: 10px 20px;
+	border: solid #036A81 3px;
+}
+.btn:hover{
+	color: #fff;
+	border: solid #fff 9px;
+}
+
+p{
+	font-size: 160%;
+	line-height: 210%;
+	text-align: justify;
+	margin: 3%;
+	font-family: sans-serif;
+}
+
+@media screen and (max-width: 768px){
+	.content h1{
+		font-size: 250%;
+
+	}
+	.btn{
+		font-size: 110%;
+		padding: 7px 15px;
+	}
+	p{
+		font-size: 110%
+	}
+}
+
+.brief{
+	width: 100%;
+	background-image: url(../images/world_map.png);
+	background-position: center center;
+    background-repeat: no-repeat;
+	background-size: cover;
+	display: table;
+}
+
+.container {
+	height: 100%;
+	width: 100%;
+	display: table-cell;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+.container p{
+	font-size: 100%;
+	padding-left: 20%;
+	padding-right:  20%;
+	font-family: 'Raleway', sans-serif;
+	color: white;
+}
+.container ul{
+	font-size: 100%;
+	padding-left: 20%;
+	padding-right:  20%;
+	font-family: 'Raleway', sans-serif;
+	color: white;
+}
+
+.heading{
+	padding: 10%;
+}
+.heading h1{
+	font-family: 'Lovers Quarrel', sans-serif;
+	font-size:500%;
+	text-align: center;
+	color: white; 
+}
+
